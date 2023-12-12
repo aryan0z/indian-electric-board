@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    margin-left: 200px ;
+    font-style: arial;
+}
+
+header {
+    background-color:lightblue;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    display: inline-flex;
+    width: 100%;
+}
+
+nav {
+    background-color: beige;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    display: inline-block;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+.home{
+    background-image: linear-gradient(rgba(0, 100, 100, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    height:720px;
+    width: 1920px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.hero-h2{
+    font-size: 45px;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 260px;
+    margin-left: -250px;
+}
+.hero-p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-left: -250px;
+    
+}
+.logo {
+    background-image: url(brand.png);
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    margin-left:-5px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}

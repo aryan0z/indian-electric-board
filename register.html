@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Indian Electricity Website</title>
+    <link href="register.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="register-container">
+        <h2>Register</h2>
+        <form action="your_server_side_registration_script.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+         <h3>Already have an account? <a href="login.html">Sign in</a></h3> 
+        </form>
+    </div>
+</body>
+
+</html>

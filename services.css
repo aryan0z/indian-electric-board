@@ -1,0 +1,89 @@
+
+.hero-h2{
+    font-size: 110px;
+    font-weight: 100;
+    text-align:right;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    color: black;
+   padding-top: 120px;
+    margin-left: 100px;
+    padding-right: -600px;
+    padding-bottom: 950px;
+}
+.home{
+    height: 300px;
+    width: 1920px;
+    position: relative;
+    padding-left: 140px;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-flex;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+header {
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    display: inline-flex;
+    width: 100%;
+}
+.logo {
+    background-image: url(brand.png);
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    margin-left:-5px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+nav {
+    background-color: beige;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    display: inline-block;
+}
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.end {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+footer {
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}

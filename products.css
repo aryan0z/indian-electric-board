@@ -1,0 +1,93 @@
+header {
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    display: inline-flex;
+    width: 100%;
+}
+.logo {
+    background-image: url(brand.png);
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    margin-left:-5px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+nav {
+    background-color: beige;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    display: inline-block;
+}
+.hero-h2{
+    font-size: 110px;
+    font-weight: 100;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: black;
+    padding-top: 120px;
+    padding-left: 160px;
+}
+.n {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.home{
+    height:720px;
+    width: 180px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-flex;
+}
+.img {
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 60px;
+    height: 140px;
+    width: 140px;
+   
+}
+body {
+    overflow-x: hidden;
+    background-color: aliceblue
+}
+
+.products {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top:420px;
+
+}
+.end {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+footer {
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
